@@ -1,16 +1,58 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <title>Caesar Cipher</title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <div id="root">
-      <h1>Hello world!</h1>
-      <h2>Q&A de instlaciones</h2>
-      <button>sumar</button>
-    </div>
-    <script src="index.js" type="module"></script>
-  </body>
+
+<head>
+  <meta charset="utf-8">
+  <title>Caesar Cipher</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+
+  <div class="texto">
+    <h1 class="h1">Página para el cifrado de tus formulas más relevantes </h1>
+    <p class="p"> Con el avance de la tecnología y el contexto actual, cada vez más empresas son susceptibles a robos de
+      información. Una aplicación que nos permita codificar información es una herramienta más que valiosa y poderosa,
+      para garantizar la seguridad de nuestra información más sensible.Por lo anterior te invito a usar cifrado cesar
+      que encontraras en esta pagina.</p>
+  </div>
+  <div>
+    <label class="label_fecha" for="Fecha">Fecha:</label>
+    <input type="date" id="Fecha" name="Fecha">
+    <input type="submit" value="Enviar"><br>
+  </div>
+
+  <section class="container_flex">
+    <section>
+
+      <p class= "label_formulaCodi" for="Tex_codificar">Fórmula a codificar</p><br>
+      <div class="cifrador" autocomplete="off">
+        <textarea id="cifrador" class="texto_original" spellcheck="false" placeholder="Ingrese su fórmula"
+          type="text"></textarea><br>
+      </div>
+      <p class="label_clave" for="Tex_codificar">Clave</p>
+      <input class="input_clave" id="clave" type="number"><br>
+      <input class="submit_codi" id="input_inicial" type="submit" value="codificar">
+    </section>
+
+    <section>
+      <p class="label_formulaDes" for="Tex_descodificar">Fórmula codificada</p><br>
+      <div class="resultado" autocomplete="off">
+        <textarea id="resultado" class="texto_modificado" spellcheck="false"
+          placeholder="Su fórmula codificado se mostrara aquí" type="text"></textarea><br>
+      </div>
+      <input class="submit_descodi" id="input_final" type="submit" value="descodificar"><br>
+    </section>
+
+
+
+  </section>
+
+
+
+
+  <script src="index.js" type="module"></script>
+</body>
+
 </html>

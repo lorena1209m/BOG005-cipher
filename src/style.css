@@ -1,3 +1,92 @@
 body {
-    background-color: aquamarine;
+  width: 100vw;
+  height: 100vh;
+  background-image: url("Imagenes/ciberseguridad\ 2.png");
+  height: 500px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+
+}
+
+.texto {
+  color: aliceblue;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.h1 {
+  text-align: center;
+}
+
+
+.container_flex {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: space-between;
+
+}
+
+.container_flex>section {
+  width: 700px;
+  height: 400px;
+  margin: 10px;
+  text-align: left;
+
+}
+
+.texto_modificado {
+  width: 630px;
+  height: 220px;
+  border: 0.5ch;
+
+}
+
+.texto_original {
+  width: 630px;
+  height: 220px;
+  border: 0.5ch;
+}
+
+.label_formulaCodi {
+  padding: 0px;
+  color: aliceblue;
+  font-size: large;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  
+}
+
+.label_formulaDes {
+  padding: 0px;
+  color: aliceblue;
+  font-size: large;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.label_clave {
+  color: aliceblue;
+  width: 50px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: large;
+  padding: 0%;
+  border: 0ch;
+  margin: 0%;
+
+}
+.input_clave{
+  padding: 0%;
+  border: 0ch;
+  margin: 0%;
+}
+.submit_codi{
+  
+  font-size: medium;
+
+
+}
+.submit_descodi{
+  
+  font-size: medium;
+
 }
