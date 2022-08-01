@@ -16,8 +16,8 @@ function cifrar () {
 document.getElementById("input_final").addEventListener("click", descifrar);
 
 function descifrar(){
-    const resultado = document.getElementById("cifrador").value; // input cuadro descodificación
-    const clave = parseInt(document.getElementById("clave").value); // número de posiciones
+    let resultado = document.getElementById("cifrador").value; // input cuadro descodificación
+    let clave = parseInt(document.getElementById("clave").value); // número de posiciones
     document.getElementById("resultado").value = cipher.decode(clave,resultado); // para mostrar el descifrado
 
 }
